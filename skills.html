@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./skills.css">
+    <title>Skills</title>
+    <script>
+        function onMenuClick() {
+          var navbar = document.getElementById("navigation-bar");
+          var responsive_class_name = "responsive";
+          navbar.classList.toggle(responsive_class_name);
+        }
+    </script>
+</head>
+<body>
+     <!---- hero section ---->
+     <div class="hero">
+        <div class="hero-contain">
+            <h2 class="logo">Portfo<span>lio</span></h2>
+           <nav id="navigation-bar" class="hero-contain1">
+                <ul class="menu-bar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./skills.html" style="color: #f9004d">Skills</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+           </nav>
+            <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+                <img src="./imgs/Menu-icon1.png" class="menu-icon">
+              </a>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </div>
+
+    <!---- Skills Section ---->
+    <section class="skills">
+        <div class="skill-title">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skills-container">
+            <div class="skill-contain">
+                <img src="./imgs/html-pic.png">
+                <h1>HTML</h1>
+            </div>
+            <div class="skill-contain">
+                <img src="./imgs/css-pic.png">
+                <h1>CSS</h1>
+            </div>
+            <div class="skill-contain">
+                <img src="./imgs/js.png">
+                <h1>JAVASCRIPT</h1>
+            </div>
+            <div class="skill-contain">
+                <img src="./imgs/angular-icon.png">
+                <h1>ANGULAR</h1>
+            </div>
+            <div class="skill-contain">
+                <img src="./imgs/bootstrap-pic.png">
+                <h1>BOOTSTRAP</h1>
+            </div>
+            <div class="skill-contain">
+                <img src="./imgs/ionic-icon.png">
+                <h1>IONIC</h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
